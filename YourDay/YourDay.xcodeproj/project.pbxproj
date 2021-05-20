@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1637455A26568E9F00A50DDE /* Redux.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Redux.md; sourceTree = "<group>"; };
 		803CB06426568ACB005B7BC8 /* YourDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		803CB06726568ACB005B7BC8 /* YourDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourDayApp.swift; sourceTree = "<group>"; };
 		803CB06926568ACB005B7BC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1637455926568E6F00A50DDE /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				1637455A26568E9F00A50DDE /* Redux.md */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
 		803CB05B26568ACB005B7BC8 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +108,7 @@
 		803CB06626568ACB005B7BC8 /* YourDay */ = {
 			isa = PBXGroup;
 			children = (
+				1637455926568E6F00A50DDE /* Redux */,
 				803CB06726568ACB005B7BC8 /* YourDayApp.swift */,
 				803CB06926568ACB005B7BC8 /* ContentView.swift */,
 				803CB06B26568AD4005B7BC8 /* Assets.xcassets */,
@@ -427,6 +437,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"YourDay/Preview Content\"";
+				DEVELOPMENT_TEAM = 6U792A794H;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = YourDay/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -448,6 +459,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"YourDay/Preview Content\"";
+				DEVELOPMENT_TEAM = 6U792A794H;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = YourDay/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
